@@ -1,0 +1,2 @@
+language = "java_swing"
+run = "bash -c xset q && DISPLAY=MAGIC run-project"
