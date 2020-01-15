@@ -61,4 +61,4 @@ More links for cryptarithms:
   button and be quite patient, and it helps to drag the pane edges to make the
   applet window larger.
 - "[A Primer on Cryptarithmetic](http://cryptarithms.awardspace.us/primer.html)"
-- "[Alphametic Puzzle Solver](http://www.tkcs-collins.com/truman/alphamet/"alpha_solve.shtml)
+- "[Alphametic Puzzle Solver](http://www.tkcs-collins.com/truman/alphamet/alpha_solve.shtml)"
