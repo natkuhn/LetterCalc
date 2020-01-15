@@ -43,12 +43,18 @@ see what happens.
 The "After rejection" delay is set to 1 millisecond because on some
 machines when it's set to 0 you can't see the digits flipping, which is the
 most fun part of the whole thing. Try setting it to 0, and if you still see
-the digits flip it will speed things up a bit.
+the digits flip it will speed things up a bit. (Unfortunately, when there is
+no delay, the main thread "blocks" and the program will let you cancel or
+increase the delay while it is still running.)
 
 The "constraints" textbox allows you to fix certain letters with particular digit
 values. For example solving the puzzle `send+more=money` with `s=9 m=1` in the
 constraints box finds the solution faster and with many fewer tries; putting
 `s=9 m=2` finds no solutions.
+
+By default, the puzzles are solved in base 10, but the program will solve
+puzzles in any base up to 62, using digits `0`-`9`, letters `a`-`z`, and then capital
+letters `A`-`Z` as digits.
 
 More links for cryptarithms:
 
