@@ -33,7 +33,7 @@ Unforunately there is a bug which can prevent the scroll pane from getting a
 final update, so that the program appears to be stuck. Simply click the mouse
 in the scroll pane to update it.
 
-Other crypatrithms to try: `small - dough = deal`, `two \* six = twelve`
+Other crypatrithms to try: `small - dough = deal`, `two * six = twelve`
 and `foot + foot + foot = yard`. Have fun!
 
 If answers are flying by too fast, try increasing the "delays." For
