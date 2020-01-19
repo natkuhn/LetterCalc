@@ -11,6 +11,17 @@ the most famous cryptarithm is:
 M O N E Y
 ```
 
+There is a solution with `S=9`, `E=5`, `N=6`, `D=7`, `M=1`, `O=0`, `R=8`, `Y=2`, since
+
+```
+  9 5 6 7
++ 1 0 8 5
+=========
+1 0 6 5 2
+```
+
+and it turns out that this is the only solution.
+
 The applet was written around 2003-2005, when it was possible to run Java
 applets in the browser. The easiest way I know of to run it now is using
 VS Code.
@@ -62,9 +73,9 @@ More links for cryptarithms:
   the program in action.
 - An online [version on repl.it](https://repl.it/@NatKuhn/LetterCalc).
   Unfortunately, there are some bugs in the repl.it implementation of the Swing
-  graphic library, so the shift key does not work. You can't enter `send+more=money`,
+  graphic library, so the shift key does not work (!). You can't enter `send+more=money`,
   but you can enter `money-more=send` and it does work. You need to hit the "Run"
-  button and be quite patient, and it helps to drag the pane edges to make the
+  button and be quite patient while it loads up. It helps to drag the pane edges to make the
   applet window larger.
 - "[A Primer on Cryptarithmetic](http://cryptarithms.awardspace.us/primer.html)"
 - "[Alphametic Puzzle Solver](http://www.tkcs-collins.com/truman/alphamet/alpha_solve.shtml)"
