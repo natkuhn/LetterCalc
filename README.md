@@ -27,8 +27,9 @@ applets in the browser. The easiest way I know of to run it now is using
 VS Code.
 
 1. Clone this repository on your hard drive, and open the folder in VS Code.
-1. Make sure you have the VS Code extension "Language Support for Java(TM)
-   by Red Hat" installed an enabled.
+1. Make sure you have the VS Code extension "Java Extension Pack" installed
+   and enabled (or at least "Language Support for Java™ by Red Hat" and
+   "Debugger for Java" installed and enabled).
 1. Open LetterCalc.java in the repository.
 1. Click on the debug and run icon on the left (command-shift-D on Mac,
    presumably control-shift-D on PC).
@@ -62,6 +63,11 @@ The "constraints" textbox allows you to fix certain letters with particular digi
 values. For example solving the puzzle `send+more=money` with `s=9 m=1` in the
 constraints box finds the solution faster and with many fewer tries; putting
 `s=9 m=2` finds no solutions.
+
+The "Warn if fewer letters than maximum" checkbox will alert you that, for
+example, `send+more=money` involves only 8 letters, and so not all 10 base-10
+digits will be present in the solution. I'm not sure why I thought this was
+a good idea.
 
 By default, the puzzles are solved in base 10, but the program will solve
 puzzles in any base up to 62, using digits `0`-`9`, letters `a`-`z`, and then capital
