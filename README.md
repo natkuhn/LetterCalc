@@ -46,7 +46,12 @@ final update, so that the program appears to be stuck. Simply click the mouse
 in the scroll pane to update it.
 
 Other crypatrithms to try: `small - dough = deal`, `two * six = twelve`
-and `foot + foot + foot = yard`. Have fun!
+and `foot + foot + foot = yard`. Have fun! (July 2020: Evelyn Lamb's
+[page-a-day math calendar](https://bookstore.ams.org/mbk-128) gives a number
+of great ones from [Manan Shah](http://mathmisery.com/) including
+`one+two+four=seven` and `failure+failure+failure+failure=success`.
+There is also `three-pi=zero+sum`, but you will need to move the `pi`
+to the other side of the equals sign.)
 
 If answers are flying by too fast, try increasing the "delays." For
 instance, try setting "After solution" two 500 (one-half second) and
