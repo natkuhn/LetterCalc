@@ -1,3 +1,6 @@
+tl;dr You can [try this on the web](https://replit.com/@NatKuhn/LetterCalc). 
+Some additional notes at the bottom.
+
 This Java Applet finds all possible solutions to cryptarithms. A cryptarithm,
 or cryptarithmetic puzzle, is an arithmetic problem made up of words. To solve
 the problem, you need to find a digit for each letter so that the problem is
@@ -80,13 +83,10 @@ letters `A`-`Z` as digits.
 
 More links for cryptarithms:
 
-- A [blog post](https://nat.familykuhn.net/2020/01/cryptarithm/) I wrote on this program, how it came to be, and why I resurrected it 15 years later. There is a 20-second video at the end showing
-  the program in action.
-- An online [version on repl.it](https://repl.it/@NatKuhn/LetterCalc).
-  Unfortunately, there are some bugs in the repl.it implementation of the Swing
-  graphic library, so the shift key does not work (!). You can't enter `send+more=money`,
-  but you can enter `money-more=send` and it does work. You need to hit the "Run"
-  button and be quite patient while it loads up. It helps to drag the pane edges to make the
-  applet window larger.
+- A [blog post](https://nat.familykuhn.net/2020/01/cryptarithm/) I wrote on this program, 
+  how it came to be, and why I resurrected it 15 years later. There is a 20-second video 
+  at the end showing the program in action.
+- An online [version on replit.com](https://replit.com/@NatKuhn/LetterCalc).
+  You need to hit the "Run" button and be quite patient for 10+ seconds while it loads up. 
 - "[A Primer on Cryptarithmetic](http://cryptarithms.awardspace.us/primer.html)"
 - "[Alphametic Puzzle Solver](http://www.tkcs-collins.com/truman/alphamet/alpha_solve.shtml)"
