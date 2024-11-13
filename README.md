@@ -1,5 +1,4 @@
-tl;dr You can [try this on the web](https://replit.com/@NatKuhn/LetterCalc). 
-Some additional notes at the bottom.
+Edit Nov 2024: the version on replit.com no longer works, but I was still able to get it to run in VS Code.
 
 This Java Applet finds all possible solutions to cryptarithms. A cryptarithm,
 or cryptarithmetic puzzle, is an arithmetic problem made up of words. To solve
@@ -16,7 +15,7 @@ M O N E Y
 
 There is a solution with `S=9`, `E=5`, `N=6`, `D=7`, `M=1`, `O=0`, `R=8`, `Y=2`, since
 
-```
+```he 
   9 5 6 7
 + 1 0 8 5
 =========
@@ -85,8 +84,6 @@ More links for cryptarithms:
 
 - A [blog post](https://nat.familykuhn.net/2020/01/cryptarithm/) I wrote on this program, 
   how it came to be, and why I resurrected it 15 years later. There is a 20-second video 
-  at the end showing the program in action.
-- An online [version on replit.com](https://replit.com/@NatKuhn/LetterCalc).
-  You need to hit the "Run" button and be quite patient for 10+ seconds while it loads up. 
+  at the end showing the program in action. 
 - "[A Primer on Cryptarithmetic](http://cryptarithms.awardspace.us/primer.html)"
 - "[Alphametic Puzzle Solver](http://www.tkcs-collins.com/truman/alphamet/alpha_solve.shtml)"
